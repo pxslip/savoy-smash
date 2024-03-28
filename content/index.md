@@ -1,0 +1,3 @@
+# Savoy Smash <small>A Not So Subtle Revisit of the Wonderful [Savoy Stomp](https://savoystomp.flannestad.com/) by Erik Ellestad</small>
+
+Inspired by the wonderful staff at [The Wells](https://www.thewellsdc.com/) here in DC my wife bought me the recent republishing of _The Savoy Cocktail Book_ by Henry Craddock. Like any good amateur mixologist I decided to work my way through as many of the cocktails in this book as I could. Follow along as I record successes, failures, my versions of these classic cocktails, hunts for rare ingredients, and attempts to recreate ingredients that no longer exist. Without further ado, welcome, to the **Savoy Smash**

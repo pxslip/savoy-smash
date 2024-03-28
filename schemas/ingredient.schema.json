@@ -1,0 +1,21 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://savoy-smash.pxslip.com/schemas/ingredient.schema.json",
+	"title": "Ingredient",
+	"description": "An ingredient used in a cocktail",
+	"type": "object",
+	"properties": {
+		"name": {
+			"type": "string"
+		},
+		"description": {
+			"type": "string"
+		},
+		"notes": {
+			"type": "string"
+		},
+		"available": {
+			"type": "boolean"
+		}
+	}
+}

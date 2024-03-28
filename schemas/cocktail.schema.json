@@ -1,0 +1,31 @@
+{
+	"$schema": "https://json-schema.org/draft-07/schema",
+	"$id": "https://savoy-smash.pxslip.com/schemas/cocktail.schema.json",
+	"title": "Cocktail",
+	"description": "The ingredients, and directions required to make a cocktail",
+	"type": "object",
+	"properties": {
+		"version": {
+			"type": "string",
+			"description": "Which version of the cocktail is this? e.g. Original, mine, or a named creator"
+		},
+		"ingredients": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"ingredient": {
+						"type": "string",
+						"$comment": "A path-style reference to an Ingredient"
+					},
+					"amount": {
+						"type": "string"
+					},
+					"measurement": {
+						"type": "string"
+					}
+				}
+			}
+		}
+	}
+}

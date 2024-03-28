@@ -4,6 +4,11 @@
 	"name": "Node.js & TypeScript",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+	"runArgs": [
+		"--label traefik.http.routers.ushmmv2.rule=Host(`savoy-smash.traefik.localhost`, `savoy-smash.docker.localhost`)",
+		"--label traefik.http.services.ushmmv2.loadbalancer.server.port=3000",
+		"--network=traefik"
+	],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

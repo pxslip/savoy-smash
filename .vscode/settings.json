@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"*.vue": "vue",
+		"*.css": "tailwindcss"
+	},
+	"tailwindCSS.experimental.classRegex": []
+}

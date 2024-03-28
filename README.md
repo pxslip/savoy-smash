@@ -2,6 +2,21 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+## Modules to consider
+
+- https://nuxt.com/modules/headlessui
+- https://nuxt.com/modules/stylelint
+- https://nuxt.com/modules/ui
+- https://nuxt.com/modules/icon
+- https://nuxt.com/modules/google-fonts
+- https://nuxt.com/modules/test-utils
+- ? https://nuxt.com/modules/pinia
+
+## Module Documentation
+
+- NuxtImage: https://image.nuxt.com
+- Nuxt Content: https://content.nuxt.com
+
 ## Setup
 
 Make sure to install the dependencies:
