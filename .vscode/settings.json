@@ -3,5 +3,7 @@
 		"*.vue": "vue",
 		"*.css": "tailwindcss"
 	},
+	"css.lint.unknownAtRules": "warning",
+	"css.customData": ["./.vscode/tailwind.css-data.json"],
 	"tailwindCSS.experimental.classRegex": []
 }

@@ -1,0 +1,45 @@
+{
+	"version": 1.1,
+	"atDirectives": [
+		{
+			"name": "@apply",
+			"description": "Tailwind CSS apply at rule",
+			"references": [
+				{
+					"name": "Tailwind @apply documentation, used to apply tailwind classes to custom CSS",
+					"url": "https://tailwindcss.com/docs/functions-and-directives#apply"
+				}
+			]
+		},
+		{
+			"name": "@tailwind",
+			"description": "Tailwind CSS tailwind at rule, used to inject tailwind `base`, `components`, `utilities`, and `variants` styles into your CSS",
+			"references": [
+				{
+					"name": "Tailwind @tailwind documentation",
+					"url": "https://tailwindcss.com/docs/functions-and-directives#tailwind"
+				}
+			]
+		},
+		{
+			"name": "@layer",
+			"description": "Tailwind CSS layer at rule, used for injecting custom CSS into the tailwind styles",
+			"references": [
+				{
+					"name": "Tailwind @layer documentation",
+					"url": "https://tailwindcss.com/docs/functions-and-directives#layer"
+				}
+			]
+		},
+		{
+			"name": "@config",
+			"description": "Tailwind CSS config at rule, used to set the tailwind config file from a CSS file",
+			"references": [
+				{
+					"name": "Tailwind @apply documentation",
+					"url": "https://tailwindcss.com/docs/functions-and-directives#apply"
+				}
+			]
+		}
+	]
+}
