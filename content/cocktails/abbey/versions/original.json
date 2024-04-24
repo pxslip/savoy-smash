@@ -1,0 +1,26 @@
+{
+	"version": "original",
+	"directions": "Shake well and strain into a cocktail glass",
+	"ingredients": [
+		{
+			"ingredient": "dry-gin",
+			"amount": "1/2",
+			"measurement": ""
+		},
+		{
+			"ingredient": "kina-lillet",
+			"amount": "1/4",
+			"measurement": ""
+		},
+		{
+			"ingredient": "orange-juice",
+			"amount": "1/4",
+			"measurement": ""
+		},
+		{
+			"ingredient": "angostura-bitters",
+			"amount": "1",
+			"measurement": "dash"
+		}
+	]
+}
