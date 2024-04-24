@@ -9,6 +9,10 @@
 			"type": "string",
 			"description": "Which version of the cocktail is this? e.g. Original, mine, or a named creator"
 		},
+		"directions": {
+			"type": "string",
+			"description": "Instructions for making this version of the cocktail"
+		},
 		"ingredients": {
 			"type": "array",
 			"items": {
