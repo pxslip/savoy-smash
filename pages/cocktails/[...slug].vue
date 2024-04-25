@@ -1,19 +1,28 @@
 <template>
 	<NuxtLayout>
 		<main>
-			<section>
-				<!-- This is the md body content -->
-				<ContentDoc />
-			</section>
-			<section>
-				<h2>Versions</h2>
-				<!-- Versions of the cocktail -->
-				<ul v-for="{ title } in versions">
-					<li>
-						<h3>{{ title }}</h3>
-					</li>
-				</ul>
-			</section>
+			<ContentDoc>
+				<template v-slot="{ doc }">
+					<article>
+						<h1>{{ doc.title }}</h1>
+						<pre>{{ doc }}</pre>
+						<ContentRenderer :value="doc" />
+					</article>
+					<aside>
+						<h2>Versions</h2>
+						<ContentList
+							:path="`${doc._path}/versions`"
+							v-slot="{ list }"
+						>
+							<ul>
+								<li v-for="version in list">
+									<h3>version.</h3>
+								</li>
+							</ul>
+						</ContentList>
+					</aside>
+				</template>
+			</ContentDoc>
 		</main>
 	</NuxtLayout>
 </template>

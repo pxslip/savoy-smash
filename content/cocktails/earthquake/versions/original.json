@@ -1,0 +1,19 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "Original",
+	"directions": "Shake well and serve in cocktail glass",
+	"ingredients": [
+		{
+			"ingredient": "gin",
+			"amount": "1/3"
+		},
+		{
+			"ingredient": "whiskey",
+			"amount": "1/3"
+		},
+		{
+			"ingredient": "absinthe",
+			"amount": "1/3"
+		}
+	]
+}
