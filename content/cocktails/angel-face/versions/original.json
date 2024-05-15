@@ -1,0 +1,19 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "savoy",
+	"directions": "Shake well and strain into a cocktail glass",
+	"ingredients": [
+		{
+			"amount": "1/3",
+			"ingredient": "dry-gin"
+		},
+		{
+			"amount": "1/3",
+			"ingredient": "apricot-brandy"
+		},
+		{
+			"amount": "1/3",
+			"ingredient": "calvados"
+		}
+	]
+}

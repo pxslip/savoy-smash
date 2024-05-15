@@ -5,8 +5,8 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
 	"runArgs": [
-		"--label traefik.http.routers.ushmmv2.rule=Host(`savoy-smash.traefik.localhost`, `savoy-smash.docker.localhost`)",
-		"--label traefik.http.services.ushmmv2.loadbalancer.server.port=3000",
+		"--label traefik.http.routers.savoy-smash.rule=Host(`savoy-smash.traefik.localhost`, `savoy-smash.docker.localhost`)",
+		"--label traefik.http.services.savoy-smash.loadbalancer.server.port=3000",
 		"--network=traefik"
 	],
 

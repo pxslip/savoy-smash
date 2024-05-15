@@ -16,7 +16,11 @@
 						>
 							<ul>
 								<li v-for="version in list">
-									<h3>version.</h3>
+									<CocktailVersion
+										:ingredients="version.ingredients"
+										:version="version.version"
+										:directions="version.directions"
+									/>
 								</li>
 							</ul>
 						</ContentList>

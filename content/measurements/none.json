@@ -1,0 +1,6 @@
+{
+	"$schema": "../../schemas/measurement.schema.json",
+	"name": "half gill or glass",
+	"notes": "Craddock chooses not to clarify what unit his cocktails are measured in (except, of course, when he does). Contemporaneous bartenders wrote their recipes using the half-gill as the default unit. A gill is 4.8 fl oz",
+	"equivalence": 1
+}

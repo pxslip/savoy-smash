@@ -1,0 +1,22 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://savoy-smash.pxslip.com/schemas/measurement.schema.json",
+	"title": "Measurement",
+	"description": "Measurements used on this site",
+	"type": "object",
+	"required": ["name", "equivalence"],
+	"properties": {
+		"name": {
+			"type": "string"
+		},
+		"notes": {
+			"type": "string"
+		},
+		"equivalence": {
+			"type": "number"
+		},
+		"unit": {
+			"type": ["string"]
+		}
+	}
+}
