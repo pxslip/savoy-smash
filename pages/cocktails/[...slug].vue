@@ -5,7 +5,6 @@
 				<template v-slot="{ doc }">
 					<article>
 						<h1>{{ doc.title }}</h1>
-						<pre>{{ doc }}</pre>
 						<ContentRenderer :value="doc" />
 					</article>
 					<aside>
@@ -16,9 +15,8 @@
 						>
 							<ul>
 								<li v-for="version in list">
-									<CocktailVersion
+									<CocktailsVersion
 										:ingredients="version.ingredients"
-										:version="version.version"
 										:directions="version.directions"
 									/>
 								</li>

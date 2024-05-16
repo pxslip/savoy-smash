@@ -1,0 +1,6 @@
+{
+	"$schema": "../../schemas/measurement.schema.json",
+	"name": "dash",
+	"notes": "1 dash from a dasher bottle, or spritz from a spray bottle. This ends up roughly 1/16th of an oz",
+	"equivalence": 0.0625
+}
