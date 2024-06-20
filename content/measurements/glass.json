@@ -1,6 +1,0 @@
-{
-	"$schema": "../../schemas/measurement.schema.json",
-	"name": "glass or wineglass",
-	"notes": "A historical measurement equivalent to 2 fluid ounces",
-	"equivalence": 2
-}

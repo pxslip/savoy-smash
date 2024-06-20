@@ -1,6 +1,0 @@
-{
-	"$schema": "../../../../schemas/cocktail.schema.json",
-	"version": "original",
-	"directions": "Shake well and strain into a cocktail glass",
-	"ingredients": []
-}

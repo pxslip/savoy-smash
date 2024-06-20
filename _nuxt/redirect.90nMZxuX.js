@@ -1,0 +1,1 @@
+import{U as t,V as i}from"./entry.BGPmG9f4.js";import{u as o}from"./utils.D56dcmB3.js";import"./preview.DqN2LpJk.js";const n=t((r,a)=>{const{page:e}=o();if(e.redirect&&e.redirect!==r.path)return i(e.redirect,{redirectCode:301})});export{n as default};

@@ -1,0 +1,1 @@
+import{d as o,b as t,c as r,j as e,t as s,e as n}from"./entry.BGPmG9f4.js";const c=n("em",null,"The Savoy Cocktail Book",-1),_=o({__name:"SavoyBookCitation",props:{page:{}},setup(p){return(a,i)=>(t(),r("cite",null,[e(" Harry Craddock, "),c,e(", Page "+s(a.page),1)]))}});export{_ as default};
