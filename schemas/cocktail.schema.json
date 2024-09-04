@@ -16,6 +16,15 @@
 		"ingredients": {
 			"type": "array",
 			"items": {
+				"$ref": "#/definitions/Ingredient"
+			}
+		}
+	},
+	"definitions": {
+		"Ingredient": {
+			"description": "A reference to an ingredient that can be used in a cocktail",
+			"type": "object",
+			"items": {
 				"type": "object",
 				"properties": {
 					"ingredient": {

@@ -1,5 +1,5 @@
 ---
-title: Vermouth, Italian (Sweet? Blanc?)
+title: Syrup, Gomme
 available: true
 ---
 
