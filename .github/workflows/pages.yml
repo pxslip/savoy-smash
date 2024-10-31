@@ -41,6 +41,7 @@ jobs:
         run: pnpm install
 
       - name: Setup Pages
+        id: setup-pages
         uses: actions/configure-pages@v5
         with:
           # Automatically inject router.base in your Nuxt configuration file and set
@@ -64,6 +65,8 @@ jobs:
 
       - name: Generate
         run: pnpx nuxi build --preset github_pages
+        env:
+          NUXT_APP_BASE_URL: ${{ steps.setup-pages.outputs.base_path }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
