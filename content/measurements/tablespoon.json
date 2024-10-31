@@ -1,0 +1,6 @@
+{
+	"$schema": "../../schemas/measurement.schema.json",
+	"name": "tablespoon, tablespoonful",
+	"notes": "Roughly 0.5 oz (~15 ml), though may be a much as 0.85 oz (25 ml)",
+	"equivalence": 0.5
+}

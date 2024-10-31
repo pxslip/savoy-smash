@@ -1,0 +1,27 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"directions": "Shake well and strain into a cocktail glass",
+	"ingredients": [
+		[
+			{
+				"amount": "1/2",
+				"ingredient": "lemon",
+				"measurement": "fruit"
+			},
+			{
+				"amount": "1",
+				"ingredient": "lime",
+				"measurement": "fruit"
+			}
+		],
+		{
+			"ingredient": "grenadine",
+			"amount": "1/4"
+		},
+		{
+			"ingredient": "apple-jack",
+			"amount": "3/4"
+		}
+	]
+}
