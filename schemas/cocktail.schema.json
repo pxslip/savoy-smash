@@ -14,29 +14,36 @@
 			"description": "Instructions for making this version of the cocktail"
 		},
 		"ingredients": {
+			"$comment": "Allow for a top level Ingredient object, or a nested array of ingredients for ingredients that offer options",
+			"description": "A list of ingredients and amounts used in the cocktail",
 			"type": "array",
-			"items": {
-				"$ref": "#/definitions/Ingredient"
-			}
+			"items": [
+				{
+					"$ref": "#/definitions/Ingredient"
+				},
+				{
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/Ingredient"
+					}
+				}
+			]
 		}
 	},
 	"definitions": {
 		"Ingredient": {
 			"description": "A reference to an ingredient that can be used in a cocktail",
 			"type": "object",
-			"items": {
-				"type": "object",
-				"properties": {
-					"ingredient": {
-						"type": "string",
-						"$comment": "A path-style reference to an Ingredient"
-					},
-					"amount": {
-						"type": "string"
-					},
-					"measurement": {
-						"type": "string"
-					}
+			"properties": {
+				"ingredient": {
+					"type": "string",
+					"$comment": "A path-style reference to an Ingredient"
+				},
+				"amount": {
+					"type": "string"
+				},
+				"measurement": {
+					"type": "string"
 				}
 			}
 		}
