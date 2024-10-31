@@ -1,4 +1,4 @@
 ---
 title: Calvados
-redirect: /ingredients/brandy/apple
+redirect: /ingredients/apple-brandy
 ---

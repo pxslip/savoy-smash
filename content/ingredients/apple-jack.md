@@ -1,8 +1,4 @@
 ---
 title: Apple Jack
-available: true
+redirect: /ingredients/apple-brandy
 ---
-
-## Description
-
-## Notes
