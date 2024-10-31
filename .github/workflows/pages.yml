@@ -53,7 +53,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: |
-            dist
+            .output
             .nuxt
           key: ${{ runner.os }}-nuxt-build-${{ hashFiles('dist') }}
           restore-keys: |
@@ -68,7 +68,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./output/public
+          path: .output/public
 
   # Deployment job
   deploy:
