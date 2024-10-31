@@ -1,0 +1,30 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"directions": "Shake well and strain into a cocktail glass",
+	"ingredients": [
+		{
+			"ingredient": "rum",
+			"amount": "1/2"
+		},
+		{
+			"ingredient": "italian-vermouth",
+			"amount": "1/2"
+		},
+		{
+			"ingredient": "apricot-brandy",
+			"amount": "4",
+			"measurement": "dash"
+		},
+		{
+			"ingredient": "grenadine",
+			"amount": "2",
+			"measurement": "dash"
+		},
+		{
+			"ingredient": "lemon-juice",
+			"amount": "4",
+			"measurement": "dash"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"directions": "Use long tumbler. Half fill with cracked ice, stir until glass is frosted. Fill with Syphon Soda Water, put 4 sprigs of green mint on top and decorate with slices of fruit in season.",
+	"ingredients": [
+		{
+			"ingredient": "lemon-juice",
+			"amount": "1/2",
+			"measurement": "fruit"
+		},
+		{
+			"ingredient": "powdered-sugar",
+			"amount": "1/4",
+			"measurement": "tablespoon"
+		},
+		{ "ingredient": "grenadine", "amount": "6", "measurement": "dash" },
+		{
+			"ingredient": "gin",
+			"amount": "1"
+		}
+	]
+}

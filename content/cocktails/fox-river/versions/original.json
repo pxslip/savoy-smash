@@ -1,0 +1,20 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"directions": "Use wineglass, and squeeze lemon peel on top. Add lump of ice",
+	"ingredients": [
+		{
+			"ingredient": "peach-bitters",
+			"amount": "4",
+			"unit": "dash"
+		},
+		{
+			"ingredient": "creme-de-cacao",
+			"amount": "1/4"
+		},
+		{
+			"ingredient": "whisky-canadian-club",
+			"amount": "3/4"
+		}
+	]
+}

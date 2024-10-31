@@ -1,0 +1,23 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"directions": "Shake well and strain into a cocktail glass",
+	"ingredients": [
+		{
+			"ingredient": "scotch-whiskey",
+			"amount": "1/3"
+		},
+		{
+			"ingredient": "irish-whiskey",
+			"amount": "1/3"
+		},
+		{
+			"ingredient": "lemon-juice",
+			"amount": "1/6"
+		},
+		{
+			"ingredient": "orgeat-syrup",
+			"amount": "1/6"
+		}
+	]
+}

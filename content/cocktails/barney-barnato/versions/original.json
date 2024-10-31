@@ -1,0 +1,25 @@
+{
+	"schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"directions": "Stir well and strain into a cocktail glass",
+	"ingredients": [
+		{
+			"ingredient": "angostura-bitters",
+			"amount": "1",
+			"measurement": "dash"
+		},
+		{
+			"ingredient": "curacao",
+			"amount": "1",
+			"measurement": "dash"
+		},
+		{
+			"ingredient": "caperitif",
+			"amount": "1/2"
+		},
+		{
+			"ingredient": "brandy",
+			"amount": "1/2"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"directions": "Use small bar glass. Fill glass 1/3 full of shaved ice. Shake thoroughly, strain into a large cocktail glass and full up with Apollinaris or Seltzer Water",
+	"ingredients": [
+		{
+			"ingredient": "lemon-juice",
+			"amount": "1/2",
+			"measurement": "fruit"
+		},
+		{
+			"ingredient": "gomme-syrup",
+			"amount": "3",
+			"measurement": "dash"
+		},
+		{
+			"ingredient": "whiskey",
+			"amount": "1",
+			"measurement": "glass"
+		}
+	]
+}
