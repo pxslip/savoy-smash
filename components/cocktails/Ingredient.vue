@@ -16,14 +16,18 @@
 
 	const props = defineProps<Props>();
 
-	const ingredientData = await useAsyncData(`${props.ingredient}-data`, () =>
-		queryContent(`/ingredients/${props.ingredient}`).findOne(),
+	const { data: ingredientData } = await useAsyncData(
+		`${props.ingredient}-data`,
+		() => queryContent(`/ingredients/${props.ingredient}`).findOne(),
 	);
-	const { equivalence } = await useAsyncData(`${props.measurement}-data`, () =>
-		queryContent(`/measurements/${props.measurement}`).findOne(),
+	const { data: measurementData } = await useAsyncData(
+		`${props.measurement}-data`,
+		() => queryContent(`/measurements/${props.measurement}`).findOne(),
 	);
 
-	const decimalAmount = fractionToDecimal(props.amount);
+	const equivalence = computed(() => measurementData.value?.equivalence ?? 1);
+
+	const decimalAmount = computed(() => fractionToDecimal(props.amount));
 </script>
 
 <style></style>

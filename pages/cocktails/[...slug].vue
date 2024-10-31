@@ -30,11 +30,11 @@
 </template>
 
 <script lang="ts" setup>
-	const { path } = useRoute();
+	// const { path } = useRoute();
 
-	const { data: versions } = await useAsyncData(path, () => {
-		return queryContent(`${path}/versions`).find();
-	});
+	// const { data: versions } = await useAsyncData(path, () => {
+	// 	return queryContent(`${path}/versions`).find();
+	// });
 </script>
 
 <style></style>

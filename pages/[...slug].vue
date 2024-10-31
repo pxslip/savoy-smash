@@ -3,10 +3,6 @@
 		<main>
 			<ContentDoc />
 		</main>
-		<aside>
-			<h2>Ingredients</h2>
-			<ContentList path="/ingredients"></ContentList>
-		</aside>
 	</NuxtLayout>
 </template>
 
