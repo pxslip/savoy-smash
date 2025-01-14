@@ -1,0 +1,28 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/savoy-cocktail-book-harry-craddock",
+	"directions": "Shake well and strain into a cocktail glass.",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/lemon-juice",
+			"amount": 0.25,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/kina-lillet",
+			"amount": 0.25,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/cointreau",
+			"amount": 0.25,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/brandy",
+			"amount": 0.25,
+			"unit": "/measurements/none"
+		}
+	]
+}

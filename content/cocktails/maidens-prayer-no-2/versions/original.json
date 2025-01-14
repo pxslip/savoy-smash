@@ -1,0 +1,28 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/savoy-cocktail-book-harry-craddock",
+	"directions": "Shake well and strain into a cocktail glass.",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/kina-lillet",
+			"amount": 0.3,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/dry-gin",
+			"amount": 0.3,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/calvados",
+			"amount": 0.16,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/pricota",
+			"amount": 0.16,
+			"unit": "/measurements/none"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/savoy-cocktail-book-harry-craddock",
+	"directions": "- Shake all ingredients with ice\n- Strain into an ice-filled glass",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/dry-gin",
+			"amount": 1.5,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/cherry-brandy",
+			"amount": 0.5,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/benedictine",
+			"amount": 0.25,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/cointreau",
+			"amount": 0.25,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/pineapple-juice",
+			"amount": 1.5,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/lime-juice",
+			"amount": 0.5,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/grenadine",
+			"amount": 1,
+			"unit": "/measurements/dash"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/pussers-painkiller",
+	"directions": "- Add liquid ingredients to a cocktail shaker and shake vigorously.\n- Pour into a big glass or goblet filled with ice. Grate fresh nutmeg on top.\n- Garnish with an orange slice and cherry.",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/rum",
+			"amount": 2,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/pineapple-juice",
+			"amount": 4,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/orange-juice",
+			"amount": 1,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/cream-of-coconut",
+			"amount": 1,
+			"unit": "/measurements/ounce"
+		}
+	]
+}

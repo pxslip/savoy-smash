@@ -1,0 +1,28 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/savoy-cocktail-book-harry-craddock",
+	"directions": "Shake well and strain into a cocktail glass.",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/curacao",
+			"amount": 3,
+			"unit": "/measurements/dash"
+		},
+		{
+			"ingredient": "/ingredients/orange-juice",
+			"amount": 0.25,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/italian-vermouth",
+			"amount": 0.25,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/dry-gin",
+			"amount": 0.5,
+			"unit": "/measurements/none"
+		}
+	]
+}

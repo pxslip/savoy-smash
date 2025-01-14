@@ -1,0 +1,19 @@
+{
+	"schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"directions": "Shake well and strain into a cocktail glass",
+	"ingredients": [
+		{
+			"name": "fernet-branca",
+			"amount": "1/4"
+		},
+		{
+			"name": "gin",
+			"amount": "1/2"
+		},
+		{
+			"name": "italian-vermouth",
+			"amount": "1/4"
+		}
+	]
+}

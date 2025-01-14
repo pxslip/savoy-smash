@@ -1,0 +1,27 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"directions": "Shake well and strain into a cocktail glass",
+	"ingredients": [
+		{
+			"name": "gin",
+			"amount": "2",
+			"measurement": "ounce"
+		},
+		{
+			"name": "creme-de-cassis",
+			"amount": "1/2",
+			"measurement": "ounce"
+		},
+		{
+			"name": "lemon-juice",
+			"amount": "1/2",
+			"measurement": "ounce"
+		},
+		{
+			"name": "simple-syrup",
+			"amount": "1/2",
+			"measurement": "ounce"
+		}
+	]
+}

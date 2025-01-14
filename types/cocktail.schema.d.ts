@@ -9,20 +9,22 @@
  * The ingredients, and directions required to make a cocktail
  */
 export interface Cocktail {
-  /**
-   * Which version of the cocktail is this? e.g. Original, mine, or a named creator
-   */
-  version?: string;
-  /**
-   * Instructions for making this version of the cocktail
-   */
-  directions?: string;
-  ingredients?: Ingredient[];
-  [k: string]: unknown;
+	/**
+	 * Which version of the cocktail is this? e.g. Original, mine, or a named creator
+	 */
+	version?: string;
+	/**
+	 * Instructions for making this version of the cocktail
+	 */
+	directions?: string;
+	ingredients?: Ingredient[];
+	[k: string]: unknown;
 }
 /**
  * A reference to an ingredient that can be used in a cocktail
  */
 export interface Ingredient {
-  [k: string]: unknown;
+	ingredient: string;
+	amount: number;
+	unit?: string;
 }

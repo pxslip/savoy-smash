@@ -1,0 +1,33 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/savoy-cocktail-book-harry-craddock",
+	"directions": "Shake well and strain into a cocktail glass.",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/absinthe",
+			"amount": 2,
+			"unit": "/measurements/dash"
+		},
+		{
+			"ingredient": "/ingredients/orange-bitters",
+			"amount": 2,
+			"unit": "/measurements/dash"
+		},
+		{
+			"ingredient": "/ingredients/parfait-amour",
+			"amount": 0.3,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/whisky-scotch",
+			"amount": 0.3,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/italian-vermouth",
+			"amount": 0.3,
+			"unit": "/measurements/none"
+		}
+	]
+}

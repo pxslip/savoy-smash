@@ -1,0 +1,33 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/savoy-cocktail-book-harry-craddock",
+	"directions": "Shake well and strain into a cocktail glass.",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/lemon-juice",
+			"amount": 1,
+			"unit": "/measurements/dash"
+		},
+		{
+			"ingredient": "/ingredients/angostura-bitters",
+			"amount": 1,
+			"unit": "/measurements/dash"
+		},
+		{
+			"ingredient": "/ingredients/french-vermouth",
+			"amount": 0.3,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/whisky-canadian-club",
+			"amount": 0.3,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/swedish-punch",
+			"amount": 0.3,
+			"unit": "/measurements/none"
+		}
+	]
+}

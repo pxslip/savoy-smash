@@ -1,0 +1,23 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/savoy-cocktail-book-harry-craddock",
+	"directions": "Stir well and strain into a cocktail glass.",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/kina-lillet",
+			"amount": 0.25,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/italian-vermouth",
+			"amount": 0.25,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/whisky-scotch",
+			"amount": 0.5,
+			"unit": "/measurements/none"
+		}
+	]
+}

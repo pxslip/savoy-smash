@@ -1,0 +1,33 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/new-american-bartenders-guide",
+	"directions": "Shake until well chilled, and strain into a double old-fashioned glass over a large ice cube. Garnish with the pineapple wedge or leaf (or both).",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/rum-blackstrap",
+			"amount": 1.5,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/pineapple-juice",
+			"amount": 1.5,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/campari",
+			"amount": 0.75,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/lime-juice",
+			"amount": 0.5,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/symple-syrup",
+			"amount": 0.5,
+			"unit": "/measurements/ounce"
+		}
+	]
+}

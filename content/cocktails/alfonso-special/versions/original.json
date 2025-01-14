@@ -1,0 +1,33 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/savoy-cocktail-book-harry-craddock",
+	"directions": "Shake well and strain into a cocktail glass.",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/angostura-bitters",
+			"amount": 1,
+			"unit": "/measurements/dash"
+		},
+		{
+			"ingredient": "/ingredients/italian-vermouth",
+			"amount": 4,
+			"unit": "/measurements/dash"
+		},
+		{
+			"ingredient": "/ingredients/dry-gin",
+			"amount": 0.25,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/french-vermouth",
+			"amount": 0.25,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/grand-marnier",
+			"amount": 0.5,
+			"unit": "/measurements/none"
+		}
+	]
+}

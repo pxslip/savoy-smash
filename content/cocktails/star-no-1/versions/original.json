@@ -1,0 +1,33 @@
+{
+	"version": "original",
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"source": "/sources/savoy-cocktail-book-harry-craddock",
+	"directions": "Shake well and strain into a cocktail glass",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/grapefruit-juice",
+			"amount": 1,
+			"unit": "/measurements/teaspoon"
+		},
+		{
+			"ingredient": "/ingredients/italian-vermouth",
+			"amount": 1,
+			"unit": "/measurements/dash"
+		},
+		{
+			"ingredient": "/ingredients/french-vermouth",
+			"amount": 1,
+			"unit": "/measurements/dash"
+		},
+		{
+			"ingredient": "/ingredients/apple-brandy",
+			"amount": 0.5,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/dry-gin",
+			"amount": 0.5,
+			"unit": "/measurements/none"
+		}
+	]
+}

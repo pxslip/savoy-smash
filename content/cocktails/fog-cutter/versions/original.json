@@ -1,0 +1,38 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/bartenders-guide-trader-vic",
+	"directions": "Shake all but sherry with cracked ice; pour into 14-oz. glass and add more cracked ice. Add sherry wine float; serve with straws.",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/rum-puerto-rican",
+			"amount": 2,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/brandy",
+			"amount": 1,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/gin",
+			"amount": 0.5,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/orange-juice",
+			"amount": 1,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/lemon-juice",
+			"amount": 2,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/orgeat",
+			"amount": 0.5,
+			"unit": "/measurements/ounce"
+		}
+	]
+}

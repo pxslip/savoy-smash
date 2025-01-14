@@ -1,0 +1,28 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/savoy-cocktail-book-harry-craddock",
+	"directions": "Add all ingredients to a mixing glass with ice. Stir until well chilled. Strain into a rocks glass with ice. Garnish with pineapple sage.",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/rum-aged",
+			"amount": 1.5,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/campari",
+			"amount": 0.75,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/sherry-fino",
+			"amount": 0.5,
+			"unit": "/measurements/ounce"
+		},
+		{
+			"ingredient": "/ingredients/honey-syrup",
+			"amount": 0.5,
+			"unit": "/measurements/ounce"
+		}
+	]
+}

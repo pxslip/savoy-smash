@@ -1,0 +1,6 @@
+{
+	"$schema": "../../schemas/measurement.schema.json",
+	"name": "ounce, oz",
+	"notes": "An ounce, roughly 25ml",
+	"equivalence": 1
+}

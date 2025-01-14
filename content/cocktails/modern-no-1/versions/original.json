@@ -1,0 +1,33 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/savoy-cocktail-book-harry-craddock",
+	"directions": "Shake well and strain into a cocktail glass.",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/orange-bitters",
+			"amount": 1,
+			"unit": "/measurements/dash"
+		},
+		{
+			"ingredient": "/ingredients/rum-jamaica",
+			"amount": 2,
+			"unit": "/measurements/dash"
+		},
+		{
+			"ingredient": "/ingredients/absinthe",
+			"amount": 1,
+			"unit": "/measurements/dash"
+		},
+		{
+			"ingredient": "/ingredients/lemon-juice",
+			"amount": 2,
+			"unit": "/measurements/dash"
+		},
+		{
+			"ingredient": "/ingredients/whisky-scotch",
+			"amount": 1,
+			"unit": "/measurements/glass"
+		}
+	]
+}

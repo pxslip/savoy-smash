@@ -1,0 +1,23 @@
+{
+	"$schema": "../../../../schemas/cocktail.schema.json",
+	"version": "original",
+	"source": "/sources/savoy-cocktail-book-harry-craddock",
+	"directions": "Shake well and strain into a cocktail glass.",
+	"ingredients": [
+		{
+			"ingredient": "/ingredients/gin",
+			"amount": 0.5,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/dubonnet",
+			"amount": 0.5,
+			"unit": "/measurements/none"
+		},
+		{
+			"ingredient": "/ingredients/orange-juice",
+			"amount": 1,
+			"unit": "/measurements/ounce"
+		}
+	]
+}

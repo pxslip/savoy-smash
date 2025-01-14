@@ -5,6 +5,10 @@
 	"description": "The ingredients, and directions required to make a cocktail",
 	"type": "object",
 	"properties": {
+		"source": {
+			"type": "string",
+			"description": "Where did this cocktail originate from? Savoy Cocktail book, Trader Vic's, etc."
+		},
 		"version": {
 			"type": "string",
 			"description": "Which version of the cocktail is this? e.g. Original, mine, or a named creator"
